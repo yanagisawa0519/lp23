@@ -81,8 +81,8 @@ li {
 
 .top-wrapper__all__left__dw__one img {
   margin-right: 50px;
- width: 329px;
-    height: 115px;
+ width: 238px;
+    height: 84px;
         margin-bottom:50px
 
 
@@ -95,8 +95,8 @@ li {
 
 .top-wrapper__all__left__dw__two img {
   margin-right: 50px;
-width: 329px;
-    height: 115px;
+width: 238px;
+    height: 84px;
     margin-bottom:50px
 }
   .header-wrap__nav {
@@ -174,6 +174,7 @@ width: 329px;
 
 #information{
   margin-left: 100px;
+  font-size: 2.0rem;
 }
 
 .sol-wrap{
@@ -344,7 +345,7 @@ margin-top: 30px;
 
 .box-fee{
   background-color: white;
-  padding: 100px;
+  padding: 65px;
   margin: 0px;
   
 }
@@ -402,7 +403,7 @@ header .drawer {
 
 .ttl__1{
   display: block;
-  font-size: 48px;
+  font-size: 35px;
   font-weight: bold;
 color: #ffffff;
 }
@@ -412,7 +413,7 @@ color: #ffffff;
   text-align: center;
   color: #ffffff;
   line-height: 2;
-  font-size: 40px;
+  font-size: 30px;
     background-color: #0979b8;
   padding: 20px;
 margin-top: 30px;
@@ -482,13 +483,17 @@ color: #ffffff;
     text-align: center;
 }
 
+.cha-ex>p{
+  text-align: left;
+  font-size: 10px;
+}
+
 .right-block{
   border-radius: 20px;
     padding: 3% 3% 0 3%;
     background-color: #0979b8;
     width: 30%;
-    text-align: center;
-
+text-align: center;
 }
 
 .block-no3{
@@ -598,6 +603,8 @@ a.btn--radius {
     padding: 20px;
      margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 332px;
+    margin-right: 341px
 }
 
 .p-content__title-main{
@@ -658,7 +665,8 @@ h2.p-content__title {
   width: 100%;
   height: 17.5rem;
  background-color: #D9D9D9; 
- border-
+         border: 2px solid #000;
+
 }
 .contact-wrap__con__form__btn {
   width: 30%;
@@ -678,6 +686,13 @@ h2.p-content__title {
   line-height: 2.8;
   margin-bottom: 30px;
   border-radius: 40px;
+      
+
+}
+.button:hover{
+    color: #000; /* 文字色を白にする */
+    background-color: #c9c9c9; /* 背景色をグレー（#c9c9c9）にする */
+    text-decoration: none; /* リンクに出てくる下線を無効にする*/    
 }
 .service-wrap {
   width: 100%;
@@ -935,11 +950,16 @@ header .drawer::after {
   width: 80%;
   margin: 0 auto;
   max-width: 500px;
+  color: #fff;
 }
 
-.ball-title p{
-  font-size: 10px;
+.ball-title p {
+  color: white;
 }
+
+
+
+
 
 .ball-title img {
 display: none;
@@ -998,6 +1018,14 @@ div#title-fun{
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
+
+}
+.right-block .cha-ex p {
+  text-align: left;
+}
+
+.left-block p{
+    text-align: left;
 
 }
 
@@ -1143,7 +1171,15 @@ margin-top: 30px;
   line-height: 2.8;
   margin-bottom: 30px;
   border-radius: 40px;
+
 }
+
+.contact-wrap__con__form__btn:hover{
+    opacity: 0.5;
+
+}
+
+
 
 
 }
@@ -1272,6 +1308,8 @@ font-size: 4px;
   margin-bottom: 30px;}
 
   .contact-wrap__con__form__item textarea {
+             border: 2px solid #000;
+
     border-color: #000;}
 
 .contact-wrap__con__form__btn button {
@@ -1287,6 +1325,8 @@ font-size: 4px;
   line-height: 2.8;
   margin-bottom: 30px;
   border-radius: 40px;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, .44), 1px 1px 1px #4a0a11;
+  
 }
 
 
