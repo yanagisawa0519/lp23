@@ -226,22 +226,39 @@ margin-top: 30px;
   text-align: center;
 
 }
-.box-1, .box-2, .box-3 {
-  background-color: #ffffff; /* 背景色を白色に設定 */
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px; /* 適宜要素の高さを設定 */
+}
+
+.box-1 img {
+  margin: 10px; /* 適宜マージンを設定 */
+}
+
+
+
+
+.box-1 h1 {
+    text-align: center;
 }
 
 .box-1{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
-  margin-top: 84px;
-  margin-bottom: 84px;
-  border-radius: 40px;
-      margin-right:20px;
+  padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 84px;
+    margin-bottom: 84px;
+    margin-right: 20px;
+    border-radius: 40px
+}
+
+
   
 
-}
+
 
 .box-1 img{
   height: 144px;
@@ -250,6 +267,10 @@ margin-top: 30px;
 
 .box-1>h1{
   color:#000
+}
+
+.box-1, .box-2, .box-3 {
+  background-color: #ffffff; /* 背景色を白色に設定 */
 }
 .box-2>h1{
   color:#000
@@ -271,10 +292,8 @@ margin-top: 30px;
 
 
 .box-2{
-  padding-top: 30px;
-  padding-bottom: 30px;
-      padding-left: 60px;
-  padding-right: 60px;
+ padding-left: 100px;
+    padding-right: 100px;
     margin-top: 84px;
     margin-bottom: 84px;
       border-radius: 40px;
@@ -284,10 +303,8 @@ margin-top: 30px;
 }
 
 .box-3{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 100px;
+    padding-right: 100px;
     margin-top: 84px;
     margin-bottom: 84px;
     margin-right:20px;
@@ -328,6 +345,10 @@ margin-top: 30px;
    padding-top: 30px;
   padding-bottom: 30px;
 
+}
+
+.bf-p>p{
+  margin-top: 16px;
 }
 
 
@@ -520,7 +541,10 @@ text-align: center;
   display: flex;
   line-height: 2.0;
   margin-left: 300px;
+  color: #ffffff;
 }
+
+
 
 .balloon1 {
   position: relative;
@@ -689,7 +713,7 @@ h2.p-content__title {
       
 
 }
-.button:hover{
+.contact-wrap__con__form__btn:hover{
     color: #000; /* 文字色を白にする */
     background-color: #c9c9c9; /* 背景色をグレー（#c9c9c9）にする */
     text-decoration: none; /* リンクに出てくる下線を無効にする*/    
@@ -1057,60 +1081,67 @@ width: 80%;
   max-width: 210px;
 }
 
-.box-1{
-  padding-right: 60px;
-  width: 80%;
-  margin: 0 auto;
-  max-width: 500px;
-margin-top: 30px;
-    margin-bottom: 30px
-
-}
-
-.box-1>h1 {
-    text-align: center;
-}
-
-.box-2{
-      width: 80%;
-  margin: 0 auto;
-  max-width: 500px;
-    padding-right: 60px;
-    margin-top: 30px;
-    margin-bottom: 30px
-
-
-
-
-  
-}
-
-.box-2>h2{
-      text-align: center;
-
-
-}
-
-.box-3>h3{
-      text-align: center;
-
-}
-
-.box-3{ 
-    padding-right: 60px;
-    width: 80%;
-  margin: 0 auto;
-  max-width: 500px;
-  margin-bottom: 30px;
-
-
-
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px; /* 適宜要素の高さを設定 */
 }
 
 .box-1 img {
-  text-align: center;
+  margin: 10px; /* 適宜マージンを設定 */
+}
+
 
 }
+
+.box-1 h1 {
+    text-align: center;
+}
+
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px; /* 適宜要素の高さを設定 */
+}
+
+.box-2 img {
+  margin: 10px; /* 適宜マージンを設定 */
+}
+
+
+
+
+.box-2 h1 {
+    text-align: center;
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px; /* 適宜要素の高さを設定 */
+}
+
+.box-3 img {
+  margin: 10px; /* 適宜マージンを設定 */
+}
+
+
+
+
+.box-3 h1 {
+    text-align: center;
+}
+
+
+
+
+
 
 .voice-wrap {
     display: block;
