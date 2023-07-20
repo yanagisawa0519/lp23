@@ -75,6 +75,11 @@ li {
   
 }
 
+.top-wrapper__all__left{
+  margin-top: 60px;
+  margin-right: 309px;
+}
+
 .top-wrapper__all__left__dw__one {
    
 }
@@ -199,8 +204,7 @@ width: 238px;
 
 .voice-wrap{
   display: flex;
-  justify-content: space-around;
-
+justify-content: space-evenly;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -492,10 +496,65 @@ color: #ffffff;
 
 
 
+
+
 .ddle-box {
     display: flex;
     justify-content: space-between;
 }
+
+.left-box h2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2589d0; /* ボタンの背景色 */
+  color: #fff; /* ボタンの文字色 */
+  text-decoration: none;
+  border: 2px solid #000; /* 黒い枠線 */
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+}
+
+.left-box h2:hover {
+  background-color: #1e72a6; /* ホバー時の背景色 */
+}
+
+.middle-box h2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2589d0; /* ボタンの背景色 */
+  color: #fff; /* ボタンの文字色 */
+  text-decoration: none;
+  border: 2px solid #000; /* 黒い枠線 */
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+}
+
+.middle-box h2:hover {
+  background-color: #1e72a6; /* ホバー時の背景色 */
+}
+
+/* ボタンスタイル */
+.ddle-box h2 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2589d0; /* ボタンの背景色 */
+  color: #fff; /* ボタンの文字色 */
+  text-decoration: none;
+  border: 2px solid #000; /* 黒い枠線 */
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+}
+
+.ddle-box h2:hover {
+  background-color: #1e72a6; /* ホバー時の背景色 */
+}
+
 
 .left-block {
     border-radius: 20px;
@@ -1031,6 +1090,7 @@ div#title-fun{
 
 .voice-wrap{
   width: 50%;
+  justify-content: space-evenly;
 }
 
 .left-block{
@@ -1154,23 +1214,11 @@ width: 80%;
 }
 
 
-.ddle-box {
-  width: 80%;
 
-}
 
-.middle-box{
-  width: 80%;
-
-}
-
-.left-box{
-    width: 80%;
-
-}
 
 .pay-box{
-  padding:20px}
+  padding: 65px;}
 
 .p-content__title{
   width: 80%;
@@ -1305,7 +1353,8 @@ font-size: 4px;
     margin: 0 auto;
     max-width: 500px;
     width:251px;
-    margin-right:181px
+    margin-right:181px;
+    justify-content: space-evenly;
 }
 
 
