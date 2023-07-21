@@ -522,7 +522,7 @@ color: #ffffff;
 .left-box h2 {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #2589d0; /* ボタンの背景色 */
+  background-color: #94D9F6; /* ボタンの背景色 */
   color: #fff; /* ボタンの文字色 */
   text-decoration: none;
   border: 2px solid #000; /* 黒い枠線 */
@@ -532,6 +532,32 @@ color: #ffffff;
   transition: background-color 0.3s ease; /* ホバー時のアニメーション */
 }
 
+.left-box{
+  background-color: #0979b8;
+  text-align: center;
+}
+.ex-leftbox
+{
+    text-align: center;
+
+  background-color: #0979b8;
+}
+
+
+
+.middle-box{
+  text-align: center;
+}
+
+.ddle-box h2{
+  text-align: center;
+  
+}
+
+
+.middle-box{
+  background-color: #0979b8;
+}
 .left-box h2:hover {
   background-color: #1e72a6; /* ホバー時の背景色 */
 }
@@ -539,7 +565,7 @@ color: #ffffff;
 .middle-box h2 {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #2589d0; /* ボタンの背景色 */
+  background-color: #94D9F6; /* ボタンの背景色 */
   color: #fff; /* ボタンの文字色 */
   text-decoration: none;
   border: 2px solid #000; /* 黒い枠線 */
@@ -557,7 +583,7 @@ color: #ffffff;
 .ddle-box h2 {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #2589d0; /* ボタンの背景色 */
+  background-color: #94D9F6; /* ボタンの背景色 */
   color: #fff; /* ボタンの文字色 */
   text-decoration: none;
   border: 2px solid #000; /* 黒い枠線 */
@@ -582,7 +608,7 @@ color: #ffffff;
 
 .cha-ex>p{
   text-align: left;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .right-block{
