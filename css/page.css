@@ -316,14 +316,14 @@ margin-top: 30px;
 
 }
 .ex-leftbox img{
-  width: 400px;
+  width: 300px;
   height: 400x;
 
 
 }
 
 .middle-box img{
-  width: 400px;
+  width: 300px;
   height: 400x;
 
 }
@@ -543,14 +543,22 @@ color: #ffffff;
 .ex-leftbox
 {
     text-align: center;
-
+width: 300px;
   background-color: #0979b8;
+}
+
+.ex-leftbox p {
+    padding-bottom: 21px;
+    text-align: left;
+    padding-top: 21px;
 }
 
 
 
 .middle-box{
   text-align: center;
+  width: 300px;
+  height: 360px;
 }
 
 .ddle-box h2{
@@ -915,6 +923,10 @@ h2.p-content__title {
   font-size: 0.85rem;
 }
 
+dl.p-faq__item.js-accordion {
+    margin-left: 150px;
+    margin-right: 150px;
+}
 
 .service-wrap::after {
   content: "";
