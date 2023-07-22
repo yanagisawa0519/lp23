@@ -346,8 +346,8 @@ margin-top: 30px;
 }
 
 .bf-p{
-   padding-top: 30px;
-  padding-bottom: 30px;
+   padding-top: 70px;
+  padding-bottom: 70px;
 
 }
 
@@ -372,6 +372,8 @@ margin-top: 30px;
   background-color: white;
   padding: 65px;
   margin: 0px;
+   width: 450px;
+  height: 450px;
   
 }
 
@@ -379,7 +381,7 @@ margin-top: 30px;
   display: block;
   width: 200px; /* ボタンの幅を適宜調整 */
   height: 40px; /* ボタンの高さを適宜調整 */
-  background-color: blue;
+  background-color: #0979b8;
   color: white;
   border: none;
   border-radius: 40px;
@@ -388,12 +390,14 @@ margin-top: 30px;
 }
 
 .btn-contact:hover {
-  background-color: darkblue; /* マウスオーバー時の背景色を適宜調整 */
+  background-color: #0979b8; /* マウスオーバー時の背景色を適宜調整 */
 }
 
 
 .pay-box{
-  padding: 20px;
+
+  width: 450px;
+  height: 450px;
   background-color: white;
   padding-top: 60px;
 
@@ -406,8 +410,8 @@ margin-top: 30px;
 }
 
 .paragrah-p{
-   padding-top: 30px;
-  padding-bottom: 30px;
+   padding-top: 70px;
+  padding-bottom: 70px;
 
 }
 
@@ -609,6 +613,7 @@ color: #ffffff;
 .cha-ex>p{
   text-align: left;
   font-size: 14px;
+  line-height: 32px;
 }
 
 .right-block{
@@ -674,6 +679,10 @@ text-align: center;
 .balloon1 p {
   margin: 0;
   padding: 0;
+  text-align: center;
+     font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+
 }
 
 .ball-title>img{
@@ -1425,7 +1434,7 @@ font-size: 4px;
 }
 
 .box-fee{
-  padding: 37px;
+ 
   margin-bottom: 30px;}
 
   .contact-wrap__con__form__item textarea {
