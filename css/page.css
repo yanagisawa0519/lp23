@@ -236,7 +236,8 @@ margin-top: 30px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 320px; /* 適宜要素の高さを設定 */
+  height: 320px;
+  width: 114px; /* 適宜要素の高さを設定 */
 }
 
 .box-1 img {
@@ -265,8 +266,8 @@ margin-top: 30px;
 
 
 .box-1 img{
-  height: 144px;
-  width: 153px;
+  height: 123px;
+  width: 123px;
 }
 
 .box-1>h1{
@@ -285,13 +286,13 @@ margin-top: 30px;
 }
 
 .box-2 img {
-    height: 144px;
-    width: 153px;
+    height: 123px;
+    width: 123px;
 }
 
 .box-3 img {
-    height: 144px;
-    width: 153px;
+    height: 123px;
+    width: 123px;
 }
 
 
@@ -325,6 +326,12 @@ margin-top: 30px;
 .middle-box img{
   width: 300px;
   height: 400x;
+
+}
+
+.middle-box p{
+  padding-bottom: 20px;
+  padding-top: 20px;
 
 }
 
@@ -924,8 +931,8 @@ h2.p-content__title {
 }
 
 dl.p-faq__item.js-accordion {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .service-wrap::after {
@@ -1203,6 +1210,7 @@ width: 80%;
     width: 80%;
   margin: 0 auto;
   max-width: 210px;
+  font-size: 10px;
 }
 
 .box-1 {
@@ -1211,6 +1219,7 @@ width: 80%;
   align-items: center;
   justify-content: center;
   height: 400px; /* 適宜要素の高さを設定 */
+  font-size: 12px;
 }
 
 .box-1 img {
@@ -1229,7 +1238,8 @@ width: 80%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 320px; /* 適宜要素の高さを設定 */
+  height: 320px;
+  width: 114px; /* 適宜要素の高さを設定 */
 }
 
 .box-2 img {
@@ -1249,6 +1259,7 @@ width: 80%;
   align-items: center;
   justify-content: center;
   height: 320px; /* 適宜要素の高さを設定 */
+  width: 80px
 }
 
 .box-3 img {
@@ -1410,6 +1421,7 @@ font-size: 4px;
 .box-wrap{
   margin-right: 105px;
   text-align: center;
+  f
 }
 
 .title-voice{
