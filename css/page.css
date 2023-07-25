@@ -73,6 +73,7 @@ li {
   align-items: center;
   margin: 7.5% 0;
   
+  margin-left: 156px;
 }
 
 .top-wrapper__all__left{
@@ -94,7 +95,9 @@ li {
 }
 
 .top-wrapper__all__left__dw__two {
-  
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
   margin-right: 80px;
 }
 
@@ -178,8 +181,8 @@ width: 238px;
 }
 
 #information{
-  margin-left: 100px;
   font-size: 2.0rem;
+  margin-left: 25px
 }
 
 .sol-wrap{
@@ -236,8 +239,8 @@ margin-top: 30px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 320px;
-  width: 114px; /* 適宜要素の高さを設定 */
+  height: 253px;
+    width: 114px /* 適宜要素の高さを設定 */
 }
 
 .box-1 img {
@@ -458,6 +461,9 @@ header .drawer {
   font-size: 35px;
   font-weight: bold;
 color: #ffffff;
+width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 .ttl__1 p {
@@ -677,7 +683,7 @@ text-align: center;
   max-width: 100%;
   color: #555;
   font-size: 16px;
-  background: #e0edff;
+  background: #ffffff;
   margin-left: 300px;
 }
 
@@ -686,7 +692,7 @@ text-align: center;
   position: absolute;
   top: 100%;
   left: 50%;
-  margin-left: -15px;
+  margin-left: -153px;
   border: 15px solid transparent;
   border-top: 15px solid #e0edff;
 }
@@ -772,7 +778,6 @@ h2.p-content__title {
 
 .p-faq__item {
     position: relative;
-    border-bottom: 1px solid #bdd0e9;
 }
 
 .p-faq__item:before, .p-faq__item:after {
@@ -815,13 +820,13 @@ h2.p-content__title {
   width: 100%;
   height: 17.5rem;
  background-color: #D9D9D9; 
-         border: 2px solid #000;
+         border: 1px solid #000;
 
 }
 .contact-wrap__con__form__btn {
   width: 30%;
   margin: 0 auto;
-  border: solid 2.5px #fff;
+  border: solid 1px #fff;
   border-radius: 5rem;
 }
 
@@ -860,6 +865,11 @@ h2.p-content__title {
   text-align: center;
   z-index: 1;
   margin-top: 30px;
+}
+
+.faq-wrap__body__list__item{
+        border-bottom: 1px solid #bdd0e9;
+
 }
 
 .s-ttl__3::after {
@@ -983,7 +993,7 @@ dl.p-faq__item.js-accordion {
 
 
 .footer-wrap {
-  background-color: #333;
+  background-color: #0979b8;
   padding: 5% 0;
 }
 
@@ -1238,8 +1248,8 @@ width: 80%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 320px;
-  width: 114px; /* 適宜要素の高さを設定 */
+  height: 253px;
+    width: 114px /* 適宜要素の高さを設定 */
 }
 
 .box-2 img {
@@ -1258,8 +1268,8 @@ width: 80%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 320px; /* 適宜要素の高さを設定 */
-  width: 80px
+ height: 253px;
+    width: 114px;
 }
 
 .box-3 img {
@@ -1288,7 +1298,7 @@ width: 80%;
 }
 
 .title-part h1 {
-  border-bottom: 2px solid #ffffff; /* 下線の太さと色を適宜調整 */
+  text-decoration: underline;
 }
 
 
@@ -1310,6 +1320,93 @@ width: 80%;
 
 .p-content__title-main{
  
+}
+
+.faq-wrap__ttl {
+  text-align: center;
+}
+
+.faq-wrap__ttl .ttl {
+  ;
+}
+
+#faq-2 .faq-wrap__ttl .ttl {
+  color: #707070;
+}
+
+.faq-wrap__body__list{
+
+}
+
+.faq-wrap__body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5%;
+}
+.faq-wrap__body__list {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.faq-wrap__body__list__item {
+  position: relative;
+  background-color: #fff;
+  padding: 1.75% 3.5%;
+  list-style: none;
+}
+
+.faq-wrap__body__list__item__tog {
+  display: none;
+}
+
+.faq-wrap__body__list__item__tog:checked
++ .faq-wrap__body__list__item__ttl
++ .faq-wrap__body__list__item__con {
+  max-height: 500px;
+  transition: all 1.5s;
+}
+
+.faq-wrap__body__list__item__tog:checked
++ .faq-wrap__body__list__item__ttl::before {
+  transform: rotate(90deg);
+}
+
+.faq-wrap__body__list__item__ttl,
+.faq-wrap__body__list__item__con {
+  transform: translate(0);
+  transition: all 0.3s;
+}
+
+.faq-wrap__body__list__item__ttl {
+  display: block;
+  font-weight: 500;
+}
+
+.faq-wrap__body__list__item__ttl::after,
+.faq-wrap__body__list__item__ttl::before {
+  content: "";
+  position: absolute;
+  right: 0.35rem;
+  top: 0.35rem;
+  width: 2.5px;
+  height: 17.5px;
+  background-color: #000;
+  transition: all 0.3s;
+}
+
+.faq-wrap__body__list__item__ttl::after {
+  transform: rotate(90deg);
+}
+
+.faq-wrap__body__list__item__con {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.faq-wrap__body__list__item__con p {
+  padding: 1% 0 1%;
+  font-weight: 500;
 }
 
 .contact-wrap__con__form__btn button{
