@@ -94,6 +94,19 @@ li {
 
 }
 
+.title-wrap{
+  display: table;
+  width: 100%;
+  margin-left: 185px;
+}
+
+.ttl__1{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
 .top-wrapper__all__left__dw__two {
   width: 80%;
   margin: 0 auto;
@@ -274,18 +287,23 @@ margin-top: 30px;
 }
 
 .box-1>h1{
-  color:#000
+  color:#000;
+  font-size:8px
 }
 
 .box-1, .box-2, .box-3 {
   background-color: #ffffff; /* 背景色を白色に設定 */
 }
 .box-2>h1{
-  color:#000
+  color:#000;
+    font-size:8px
+
 }
 
 .box-3>h1{
-  color:#000
+  color:#000;
+    font-size:8px;
+
 }
 
 .box-2 img {
@@ -457,13 +475,11 @@ header .drawer {
 }
 
 .ttl__1{
-  display: block;
+  margin-left: 30px;
   font-size: 35px;
   font-weight: bold;
 color: #ffffff;
-width: 80%;
-  margin: 0 auto;
-  max-width: 500px;
+
 }
 
 .ttl__1 p {
@@ -488,6 +504,8 @@ margin-top: 30px;
 margin-top: 30px;
 margin-bottom: -20px;
 font-size: 24px;
+color: #ffffff;
+margin-left: 162px;
 
 }
 
@@ -679,7 +697,7 @@ text-align: center;
   position: relative;
   display: inline-block;
   margin: 1.5em 0;
-  padding: 7px 10px;
+  padding: 15px 10px;
   min-width: 120px;
   max-width: 100%;
   color: #555;
