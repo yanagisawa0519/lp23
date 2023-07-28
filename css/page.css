@@ -47,7 +47,12 @@ li {
 
 .top-wrapper.inner {
     aspect-ratio: 2 / 1;
+
+  display: table;
+  width: 100%;
+
   }
+  
 
   .top {
   background-image: url("../img/25858446_s.jpg");
@@ -72,13 +77,12 @@ li {
   justify-content: center;
   align-items: center;
   margin: 7.5% 0;
+  position:relative;
   
-  margin-left: 156px;
 }
 
 .top-wrapper__all__left{
-  margin-top: 60px;
-  margin-right: 309px;
+  
 }
 
 .top-wrapper__all__left__dw__one {
@@ -97,13 +101,13 @@ li {
 .title-wrap{
   display: table;
   width: 100%;
-  margin-left: 185px;
 }
 
 .ttl__1{
   display: table-cell;
   vertical-align: middle;
 }
+
 
 
 
@@ -370,7 +374,7 @@ margin-top: 30px;
 .title-bf{
   padding-top: 30px;
   padding-bottom: 30px;
-
+font-size: 24px;
 }
 
 .bf-p{
@@ -434,6 +438,7 @@ margin-top: 30px;
 .pay-title{
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 24px;
 
 }
 
@@ -472,6 +477,11 @@ header .drawer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
 .ttl__1{
@@ -505,7 +515,6 @@ margin-top: 30px;
 margin-bottom: -20px;
 font-size: 24px;
 color: #ffffff;
-margin-left: 162px;
 
 }
 
@@ -560,7 +569,6 @@ color: #ffffff;
   background-color: #94D9F6; /* ボタンの背景色 */
   color: #000; /* ボタンの文字色 */
   text-decoration: none;
-  border: 2px solid #000; /* 黒い枠線 */
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
   cursor: pointer;
@@ -843,6 +851,10 @@ h2.p-content__title {
  background-color: #D9D9D9; 
          border: 1px solid #000;
 
+}
+
+input{
+  border: 1px solid black;
 }
 .contact-wrap__con__form__btn {
   width: 30%;
