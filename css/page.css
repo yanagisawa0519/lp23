@@ -357,6 +357,7 @@ margin-top: 30px;
 .middle-box p{
   padding-bottom: 20px;
   padding-top: 20px;
+  color: white;
 
 }
 
@@ -402,7 +403,7 @@ font-size: 24px;
 
 .box-fee{
   background-color: white;
-  padding: 40px;
+  padding: 55px;
   margin: 0px;
    width: 450px;
   height: 450px;
@@ -574,6 +575,7 @@ color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s ease; /* ホバー時のアニメーション */
   margin-bottom: 20px;
+  border: 2px solid #000;
 }
 
 .left-box{
@@ -591,6 +593,7 @@ width: 300px;
     padding-bottom: 21px;
     text-align: left;
     padding-top: 21px;
+    color: white;
 }
 
 
@@ -649,6 +652,17 @@ width: 300px;
   background-color: #1e72a6; /* ホバー時の背景色 */
 }
 
+.ex-leftbox>h1 {
+  color: #ffffff;
+}
+
+.ddle-box h1 p{
+  color: #ffffff;
+}
+
+.middle-box>h1 {
+  color: #ffffff;
+}
 
 .left-block {
     border-radius: 20px;
@@ -1340,7 +1354,7 @@ width: 80%;
 
 
 .pay-box{
-  padding: 40px;}
+  padding: 55px;}
 
 .p-content__title{
   width: 80%;
