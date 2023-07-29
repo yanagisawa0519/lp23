@@ -873,8 +873,7 @@ input{
 .contact-wrap__con__form__btn {
   width: 30%;
   margin: 0 auto;
-  border: solid 1px #fff;
-  border-radius: 5rem;
+  
 }
 
 .contact-wrap__con__form__btn button {
