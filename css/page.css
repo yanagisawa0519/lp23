@@ -402,7 +402,7 @@ font-size: 24px;
 
 .box-fee{
   background-color: white;
-  padding: 65px;
+  padding: 40px;
   margin: 0px;
    width: 450px;
   height: 450px;
@@ -567,7 +567,7 @@ color: #ffffff;
   display: inline-block;
   padding: 10px 20px;
   background-color: #94D9F6; /* ボタンの背景色 */
-  color: #000; /* ボタンの文字色 */
+  color: #ffffff; /* ボタンの文字色 */
   text-decoration: none;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
@@ -618,7 +618,7 @@ width: 300px;
   display: inline-block;
   padding: 10px 20px;
   background-color: #94D9F6; /* ボタンの背景色 */
-  color: #000; /* ボタンの文字色 */
+  color: #ffffff; /* ボタンの文字色 */
   text-decoration: none;
   border: 2px solid #000; /* 黒い枠線 */
   border-radius: 5px;
@@ -636,7 +636,7 @@ width: 300px;
   display: inline-block;
   padding: 10px 20px;
   background-color: #94D9F6; /* ボタンの背景色 */
-  color: #000; /* ボタンの文字色 */
+  color: #ffffff; /* ボタンの文字色 */
   text-decoration: none;
   border: 2px solid #000; /* 黒い枠線 */
   border-radius: 5px;
@@ -1340,7 +1340,7 @@ width: 80%;
 
 
 .pay-box{
-  padding: 65px;}
+  padding: 40px;}
 
 .p-content__title{
   width: 80%;
