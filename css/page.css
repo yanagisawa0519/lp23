@@ -1365,6 +1365,16 @@ div#title-fun{
 .balloon1 {
     
      margin-left: 150px;
+     
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0;
+    padding: 15px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #ffffff;
   }
 
 
@@ -1587,11 +1597,8 @@ width: 80%;
 
 .box-fee {
     background-color: white;
-    padding: 17px;
-    /* margin: 0px; */
-    width: 389px;
-    width: 279px;
-    height: 450px;
+    
+    padding: 20px;
 }
 
 .paragrah-p {
