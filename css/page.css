@@ -378,6 +378,7 @@ margin-top: 30px;
   padding-bottom: 20px;
   padding-top: 20px;
   color: white;
+  text-align: left;
 
 }
 
@@ -423,7 +424,7 @@ font-size: 24px;
 
 .box-fee{
   background-color: white;
-  padding: 55px;
+  padding: 30px;
   margin: 0px;
    width: 450px;
   height: 450px;
@@ -452,7 +453,7 @@ font-size: 24px;
   width: 450px;
   height: 450px;
   background-color: white;
-  padding:55px
+  padding:30px
 
 }
 
@@ -1031,6 +1032,78 @@ dl.p-faq__item.js-accordion {
   top: 0;
   bottom: 0;
 }
+
+.faq-wrap__body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5%;
+}
+.faq-wrap__body__list {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.faq-wrap__body__list__item {
+  position: relative;
+  background-color: #fff;
+  padding: 1.75% 3.5%;
+  list-style: none;
+}
+
+.faq-wrap__body__list__item__tog {
+  display: none;
+}
+
+.faq-wrap__body__list__item__tog:checked
++ .faq-wrap__body__list__item__ttl
++ .faq-wrap__body__list__item__con {
+  max-height: 500px;
+  transition: all 1.5s;
+}
+
+.faq-wrap__body__list__item__tog:checked
++ .faq-wrap__body__list__item__ttl::before {
+  transform: rotate(90deg);
+}
+
+.faq-wrap__body__list__item__ttl,
+.faq-wrap__body__list__item__con {
+  transform: translate(0);
+  transition: all 0.3s;
+}
+
+.faq-wrap__body__list__item__ttl {
+  display: block;
+  font-weight: 500;
+}
+
+.faq-wrap__body__list__item__ttl::after,
+.faq-wrap__body__list__item__ttl::before {
+  content: "";
+  position: absolute;
+  right: 0.35rem;
+  top: 0.35rem;
+  width: 0.5px;
+  height: 17.5px;
+  background-color: #000;
+  transition: all 0.3s;
+}
+
+.faq-wrap__body__list__item__ttl::after {
+  transform: rotate(90deg);
+}
+
+.faq-wrap__body__list__item__con {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.faq-wrap__body__list__item__con p {
+  padding: 1% 0 1%;
+  font-weight: 500;
+}
+
 
 .faq-wrap__body__list__item__ttl::before {
     content: "";
