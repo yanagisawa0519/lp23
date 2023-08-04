@@ -853,6 +853,17 @@ h2.p-content__title {
     transform: translate(50%, -50%);
 }
 
+.faq-wrap__body__list__item__ttl::after, .faq-wrap__body__list__item__ttl::before {
+    content: "";
+    position: absolute;
+    right: 0.35rem;
+    top: 0.35rem;
+    width: 0.5px;
+    height: 17.5px;
+    background-color: #000;
+    transition: all 0.3s;
+}
+
 
 .contact {
   background-color: #fff;
@@ -1089,8 +1100,11 @@ dl.p-faq__item.js-accordion {
   color: #000;
   font-size: 10px;
    font-family: 'Noto Sans JP', sans-serif;
+ 
+
 
 }
+
 
   .__pc {
     display: inline-block;
@@ -1658,9 +1672,12 @@ width: 80%;
 
   body{
      font-family: 'Noto Sans JP', sans-serif;
+        object-fit: cover;
+
 
   }
 
+ 
   .ttl__1 p {
     display: inline-block;
     text-align: center;
@@ -1697,11 +1714,11 @@ header .drawer{
 
 
 .top-wrapper__all__left__dw__two img {
-    margin-right: 197px;
+    margin-right: 80%;
     width: 67px;
     height: 24px;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 75%;
+    margin-top: 40%;
 }
 
 .__contact a {
@@ -1733,8 +1750,12 @@ display: flex;
     align-items: center;
 }
 
+.top-wrapper__all__left {
+    margin-right: 0px;
+    margin-top: 8%;
+}
 .balloon1 {
-    margin-left: 53px;
+    margin-left: 15%;
 }
 
 .balloon1 p {
@@ -1746,6 +1767,15 @@ display: flex;
     width:156px;
   }
 
+.ball-title {
+    margin: initial;
+    width: 80%;
+    margin: 0 auto;
+    /* max-width: 500px; */
+    color: #fff;
+    font-size: 10px;
+}
+
 
 .title-fun>h1{
 font-size: 4px;
@@ -1754,6 +1784,14 @@ font-size: 4px;
 .cha-ex{
   font-size: 4px;
 }
+
+.wrap-first2 {
+    display: block;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;}
 
 .voice-customer{ width: 80%;
   margin: 0 auto;
@@ -1769,6 +1807,16 @@ font-size: 4px;
 
 }
 
+div#title-fun {
+    text-align: center;
+    background-color: #0979b8;
+    font-size: 2.0rem;
+    margin-top: 30px;
+    color: #fff;
+    padding: 0.5em 1em;
+    /* margin-right: 341px; */
+}
+
 #title-fun{
     background-color: #0979b8;
     color: #ffffff;
@@ -1779,6 +1827,8 @@ font-size: 4px;
 
   width: 133px;
 }
+
+#information {margin-left: 0px;}
 
 .top::after {
     position: absolute;
