@@ -424,10 +424,9 @@ font-size: 24px;
 
 .box-fee{
   background-color: white;
-  padding: 30px;
+  padding: 55px;
   margin: 0px;
-   width: 450px;
-  height: 450px;
+   
   
 }
 
@@ -450,10 +449,9 @@ font-size: 24px;
 
 .pay-box{
 
-  width: 450px;
-  height: 450px;
+ 
   background-color: white;
-  padding:30px
+  padding:55px
 
 }
 
@@ -596,7 +594,6 @@ color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s ease; /* ホバー時のアニメーション */
   margin-bottom: 20px;
-  border: 2px solid #000;
 }
 
 .left-box{
@@ -644,7 +641,6 @@ width: 300px;
   background-color: #94D9F6; /* ボタンの背景色 */
   color: #ffffff; /* ボタンの文字色 */
   text-decoration: none;
-  border: 2px solid #000; /* 黒い枠線 */
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
   cursor: pointer;
@@ -662,7 +658,6 @@ width: 300px;
   background-color: #94D9F6; /* ボタンの背景色 */
   color: #ffffff; /* ボタンの文字色 */
   text-decoration: none;
-  border: 2px solid #000; /* 黒い枠線 */
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
   cursor: pointer;
