@@ -1159,6 +1159,275 @@ dl.p-faq__item.js-accordion {
 }
 
 
+@media screen and (max-width: 1024px) {
+
+  .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+
+  }
+
+.header-wrap__nav__list{
+  font-size: 11px;
+}
+
+
+
+  .ttl__1 p {
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    line-height: 2;
+    font-size: 20px;
+    background-color: #0979b8;
+    padding: 20px;
+    margin-top: 30px}
+  
+    .top-wrapper__all__left__dw__one img {
+    margin-right: 50px;
+    width: 191px;
+    /* height: 18px; */
+    height: 59px;
+    margin-bottom: 50px;
+}
+
+.top-wrapper__all__left__dw__two img {
+   margin-right: 50px;
+    width: 191px;
+    /* height: 18px; */
+    height: 59px;
+    margin-bottom: 50px;}
+
+.ball-title {
+    display: flex;
+    line-height: 1.5;
+    /* margin-left: 300px; */
+    color: #ffffff;
+    font-size: 11px;
+    margin-left: 0px;
+    margin: 30px;
+}
+
+.ball-title img {
+    display: table-cell;
+    /* margin-left: 100px; */
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+
+.explain-title>h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.balloon1 {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0;
+    padding: 15px 10px;
+    /* min-width: 120px; */
+    /* max-width: 100%; */
+    color: #555;
+    font-size: 16px;
+    background: #ffffff;
+    margin-left: 175px;
+}
+
+.ball-title {
+    display: flex;
+    line-height: 1.5;
+    /* margin-left: 300px; */
+    color: #ffffff;
+    font-size: 11px;
+}
+
+  .wrap-example{
+     width: 80%;
+  margin-left: 187px;
+  max-width: 500px
+  }
+
+  .ball-title>img {
+    width: 238px;
+    height: 134px;
+    margin-left: 20px;
+}
+#information {
+    font-size: 20px;
+    margin-left: 25px;
+}
+#title-fun {
+    background-color: #0979b8;
+    color: #ffffff;
+    padding: 20px;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+    width: 339px;
+    margin-left: 122px;
+    margin-top: 30px;
+}
+.wrap-first2 {
+    display: block;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+   position: relative;
+   }
+
+
+
+    .left-block {
+    border-radius: 20px;
+    padding: 3% 3% 0 3%;
+    background-color: #0979b8;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+ }
+
+.right-block {
+    border-radius: 20px;
+    padding: 3% 3% 0 3%;
+    background-color: #0979b8;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-wrap {
+    display: block;
+     width: 25%;
+  margin: 0 auto;
+  max-width: 500px
+
+}
+
+.left-block{
+  width: 100%;
+}
+
+.wrap-below {
+    display: block;
+    width: 100%;
+}
+
+.block-no3 {
+    border-radius: 20px;
+    padding: 3% 3% 0 3%;
+    background-color: #0979b8;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.block-no4 {
+    border-radius: 20px;
+    padding: 3% 3% 0 3%;
+    background-color: #0979b8;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+.sol-title {
+    background-color: #ffffff;
+    color: #0979b8;
+    padding: 20px;
+    font-size: 2.0rem;
+    margin-left: 215px;
+    margin-right: 201px;
+    margin-top: 30px;
+}
+.title-voice {
+    text-align: center;
+    background-color: #0979b8;
+    font-size: 2.0rem;
+    margin-top: 30px;
+    color: #fff;
+    padding: 20px;
+    margin-left: 215px;
+    margin-right: 201px;
+    margin-top: 30px;
+}
+
+
+
+
+.p-content__title {
+  text-align: center;
+    background-color: #0979b8;
+    font-size: 2.0rem;
+    margin-top: 30px;
+    color: #fff;
+    padding: 20px;
+    margin-left: 215px;
+    margin-right: 201px;
+    margin-top: 30px;
+}
+
+#title-fee {
+    padding: 20px;
+    color: white;
+    padding-top: 166px;
+    font-size: 16px;
+}
+
+.paragrah-p {
+    font-size: 11px;
+}
+.bf-p {
+  font-size: 11px;}
+
+.title-bf {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.voice-wrap {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+  margin: 0 auto;
+  max-width: 288px;
+}
+
+.pay-box {
+    background-color: white;
+    padding: 23px;
+}
+.box-fee {
+    background-color: white;
+    padding: 19px;
+    margin: 0px;
+}
+
+
+.pay-title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.ex-leftbox{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+}
+
+
 @media screen and (max-width: 768px) {
   body {
   line-height: 1.8;
