@@ -1272,8 +1272,7 @@ dl.p-faq__item.js-accordion {
     margin-top: 30px;
 }
 .wrap-first2 {
-    display: block;
-    align-items: center;
+    display: flex;
     margin-bottom: 30px;
     margin-top: 30px;
    position: relative;
@@ -1282,12 +1281,13 @@ dl.p-faq__item.js-accordion {
 
 
     .left-block {
-    border-radius: 20px;
+   border-radius: 20px;
     padding: 3% 3% 0 3%;
     background-color: #0979b8;
     width: 50%;
+    text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 
  }
 
@@ -1295,26 +1295,76 @@ dl.p-faq__item.js-accordion {
     border-radius: 20px;
     padding: 3% 3% 0 3%;
     background-color: #0979b8;
-    width: 100%;
+    width: 50%;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.list-wrap {
+}
+
 .box-wrap {
-    display: block;
+    display: flex;
+    justify-content: center;
      width: 25%;
   margin: 0 auto;
   max-width: 500px
 
 }
+.box-1 img {
+    height: 87px;
+    width: 88px;
+}
+
+.box-2 img {
+    height: 87px;
+    width: 88px;
+}
+
+.box-1 {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 82px;
+    margin-bottom: 84px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+
+.box-2 {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 82px;
+    margin-bottom: 84px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+
+.box-3 {
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 82px;
+    margin-bottom: 84px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+
+
+
+
+.box-3 img {
+    height: 87px;
+    width: 88px;
+}
 
 .left-block{
-  width: 100%;
+  
 }
 
 .wrap-below {
-    display: block;
+    display: flex;
     width: 100%;
 }
 
@@ -1322,7 +1372,7 @@ dl.p-faq__item.js-accordion {
     border-radius: 20px;
     padding: 3% 3% 0 3%;
     background-color: #0979b8;
-    width: 100%;
+    width: 50%;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1332,7 +1382,7 @@ dl.p-faq__item.js-accordion {
     border-radius: 20px;
     padding: 3% 3% 0 3%;
     background-color: #0979b8;
-    width: 100%;
+    width: 50%;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1359,7 +1409,29 @@ dl.p-faq__item.js-accordion {
     margin-top: 30px;
 }
 
+.ex-leftbox {
+    text-align: center;
+    width: 182px;
+    background-color: #0979b8;
+}
 
+.ex-leftbox img {
+    width: 180px}
+
+.left-box {
+    width: 34px;
+}
+
+.middle-box img {
+    width: 178px;
+
+  }
+
+  .middle-box {
+    text-align: center;
+    width: 184px;
+    height: 360px;
+}
 
 
 .p-content__title {
@@ -1394,7 +1466,7 @@ dl.p-faq__item.js-accordion {
 }
 
 .voice-wrap {
-    display: block;
+    display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 80%;
