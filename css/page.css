@@ -1236,7 +1236,17 @@ dl.p-faq__item.js-accordion {
     color: #555;
     font-size: 16px;
     background: #ffffff;
-    margin-left: 175px;
+    width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.balloon1 p{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+
+
 }
 
 .ball-title {
@@ -1268,7 +1278,6 @@ dl.p-faq__item.js-accordion {
     padding: 20px;
     clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
     width: 339px;
-    margin-left: 122px;
     margin-top: 30px;
 }
 .wrap-first2 {
@@ -1419,7 +1428,10 @@ dl.p-faq__item.js-accordion {
     width: 180px}
 
 .left-box {
-    width: 34px;
+    width: 190px;
+}
+
+.middle-box {
 }
 
 .middle-box img {
@@ -1431,6 +1443,7 @@ dl.p-faq__item.js-accordion {
     text-align: center;
     width: 184px;
     height: 360px;
+    
 }
 
 
@@ -1492,7 +1505,6 @@ dl.p-faq__item.js-accordion {
 }
 
 .ex-leftbox{
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
