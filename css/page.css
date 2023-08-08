@@ -1560,6 +1560,14 @@ dl.p-faq__item.js-accordion {
 
 }
 
+.header-wrap{
+  margin:2%
+
+
+
+
+}
+
 .top-wrapper__all__left {
     margin-right: 0px; 
     margin-top: 82px;
@@ -1586,7 +1594,8 @@ dl.p-faq__item.js-accordion {
   object-fit: cover;}
 
 .image{
-  width: 50px;
+ width: 112px;
+    height: 27px;
 }
 
 .__contact a {
@@ -1660,25 +1669,31 @@ header .drawer::after {
 }
 
 .top-wrapper__all__left {
-  margin-right: 100px;
+  margin-right: 0px;
+   width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 .top-wrapper__all__left__dw__one img {
     margin-right: 50px;
     width: 115px;
     height:42px;
-    margin-bottom: 50px;
+    margin-bottom: 33px;
     margin-top: 30px;
+     margin-left: 73px;
+
 
 
 }
 
 .top-wrapper__all__left__dw__two img {
-    margin-right: 197px;
+    margin-right: 100px;
     width: 115px;
     height: 42px;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 45px;
+    margin-left: 20px;
 }
 
 .ball-title {
@@ -1692,6 +1707,7 @@ header .drawer::after {
 
 .ball-title p {
   color: white;
+  margin-right: 20px;
 }
 
 #title-fee {
@@ -1716,6 +1732,28 @@ display: none;
 
 }
 
+.middle-box {
+    text-align: center;
+    width: 271px;
+    height: 360px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.middle-box img {
+    width: 270px;
+}
+
+.ex-leftbox {
+    text-align: center;
+    width: 281px;
+    background-color: #0979b8;
+}
+
+.ex-leftbox img {
+    width: 279px;
+}
+
 div#title-fun{
   text-align: center;
     background-color: #0979b8;
@@ -1737,11 +1775,11 @@ div#title-fun{
     position: relative;
     display: inline-block;
     margin: 1.5em 0;
-    padding: 15px 10px;
+    padding: 8px 10px;
     min-width: 120px;
     max-width: 100%;
     color: #555;
-    font-size: 16px;
+    font-size: 12px;
     background: #ffffff;
   }
 
@@ -1823,6 +1861,8 @@ width: 80%;
   justify-content: center;
   height: 235px; /* 適宜要素の高さを設定 */
   font-size: 12px;
+  width: 210px;
+
 }
 
 .box-1 img {
@@ -1842,7 +1882,7 @@ width: 80%;
   align-items: center;
   justify-content: center;
   height: 253px;
-    width: 114px /* 適宜要素の高さを設定 */
+    width: 210px /* 適宜要素の高さを設定 */
 }
 
 .box-2 img {
@@ -1862,7 +1902,8 @@ width: 80%;
   align-items: center;
   justify-content: center;
  height: 253px;
-    width: 114px;
+     width: 210px /* 適宜要素の高さを設定 */
+
 }
 
 .box-3 img {
@@ -1957,10 +1998,12 @@ width: 80%;
 
 
 .pay-box {
-    width: 277px;
-    height: 450px;
+    
+    width: 218px;
+    height: 355px;
     background-color: white;
-    padding: 17px;
+    padding: 23px;
+}
 }
 
 .box-fee {
@@ -1971,7 +2014,7 @@ width: 80%;
 
 .paragrah-p {
     padding-top: 70px;
-    padding-bottom: 40px;
+    padding-bottom: 51px;
 }
 
 .p-content__title{
