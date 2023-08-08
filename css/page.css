@@ -1226,6 +1226,13 @@ dl.p-faq__item.js-accordion {
     color: #ffffff;
 }
 
+.wrap-balloon{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+
+}
+
 .balloon1 {
     position: relative;
     display: inline-block;
@@ -1239,7 +1246,10 @@ dl.p-faq__item.js-accordion {
     width: 80%;
   margin: 0 auto;
   max-width: 500px;
+  margin-top: 20px;
 }
+
+
 
 .balloon1 p{
   width: 80%;
@@ -1259,7 +1269,8 @@ dl.p-faq__item.js-accordion {
 
   .wrap-example{
      width: 80%;
-  margin-left: 187px;
+    margin: 0 auto;
+
   max-width: 500px
   }
 
@@ -1416,6 +1427,7 @@ dl.p-faq__item.js-accordion {
     margin-left: 215px;
     margin-right: 201px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .ex-leftbox {
@@ -1429,6 +1441,7 @@ dl.p-faq__item.js-accordion {
 
 .left-box {
     width: 190px;
+    margin-bottom: 30px;
 }
 
 .middle-box {
@@ -1443,7 +1456,9 @@ dl.p-faq__item.js-accordion {
     text-align: center;
     width: 184px;
     height: 360px;
-    
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
