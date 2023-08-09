@@ -1175,6 +1175,8 @@ dl.p-faq__item.js-accordion {
 
 
 
+
+
   .ttl__1 p {
     display: inline-block;
     text-align: center;
@@ -1610,7 +1612,7 @@ header .drawer {
   visibility: visible;
   width: 24px;
   position: absolute;
-  top: 6px;
+  top: 18px;
   right: 15px;
   border-top: solid 4px #aaaaaa;
   cursor: pointer;
@@ -1728,6 +1730,9 @@ display: none;
 .sol-title{
    margin-left: 80px;
    margin-right: 80px;
+    width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
 
 
 }
@@ -1760,8 +1765,8 @@ div#title-fun{
     font-size: 2.0rem;
     margin-top: 30px;
     color: #fff;
-    padding: 0.5em 1em;
-    margin-right: 341px;
+    padding: 0.5em 2px;
+    margin-right: 0px;
     margin-top: 30px
 }
 
@@ -1791,16 +1796,13 @@ div#title-fun{
   align-items: center;
     margin-bottom: 30px;
     margin-top: 30px;
-    width: 80%;
-  margin: 0 auto;
-  max-width: 500px;
+    
 }
 
 .voice-wrap{
   display: block;
   width: 80%;
   margin: 0 auto;
-  max-width: 286px;
 }
 
 
@@ -1840,9 +1842,7 @@ div#title-fun{
 
 .wrap-below {
     display: block;
-width: 80%;
-  margin: 0 auto;
-  max-width: 500px;
+
     justify-content: center;
 }
 
@@ -1861,7 +1861,7 @@ width: 80%;
   justify-content: center;
   height: 235px; /* 適宜要素の高さを設定 */
   font-size: 12px;
-  width: 210px;
+  
 
 }
 
@@ -1882,7 +1882,7 @@ width: 80%;
   align-items: center;
   justify-content: center;
   height: 253px;
-    width: 210px /* 適宜要素の高さを設定 */
+    /* 適宜要素の高さを設定 */
 }
 
 .box-2 img {
@@ -1902,7 +1902,7 @@ width: 80%;
   align-items: center;
   justify-content: center;
  height: 253px;
-     width: 210px /* 適宜要素の高さを設定 */
+     /* 適宜要素の高さを設定 */
 
 }
 
@@ -2003,7 +2003,7 @@ width: 80%;
     height: 355px;
     background-color: white;
     padding: 23px;
-}
+
 }
 
 .box-fee {
