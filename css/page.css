@@ -1664,6 +1664,10 @@ dl.p-faq__item.js-accordion {
     margin: 0px;
 }
 
+.title-voice{
+  
+}
+
 
 .pay-title {
     padding-top: 30px;
@@ -1691,6 +1695,20 @@ dl.p-faq__item.js-accordion {
  
 
 
+}
+
+body.nav-open header .drawer {
+  border-top: 0;
+}
+
+body.nav-open header .drawer::before {
+  top: 9px;
+  transform: rotate(-45deg);
+}
+
+body.nav-open header .drawer::after {
+  top: 9px;
+  transform: rotate(45deg);
 }
 
 
@@ -1770,12 +1788,10 @@ header .drawer {
 }
 
 .drawer {
-  visibility: visible;
   width: 24px;
   position: absolute;
   top: 18px;
   right: 15px;
-  border-top: solid 4px #aaaaaa;
   cursor: pointer;
   z-index: 100;
 }
@@ -1817,6 +1833,7 @@ header .drawer {
 .drawer.clicked + .menu {
   display: block;
 }
+
 
 
 header .drawer::before,
@@ -1933,6 +1950,8 @@ display: none;
     width: 80%;
   margin: 0 auto;
   max-width: 500px;
+
+  margin-top: 30px;
 
 
 }
@@ -2174,7 +2193,6 @@ div#title-fun{
 }
 
 .title-voice {
-    text-align: center;
     background-color: #0979b8;
     font-size: 16px;
     margin-top: 30px;
@@ -2182,6 +2200,10 @@ div#title-fun{
     padding: 20px;
     margin-left: 80px;
     margin-right: 80px;
+    width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+
 
 }
 
@@ -2375,10 +2397,10 @@ div#title-fun{
 }
 
 .bar {
-  width: 24px;
-  height: 3px;
+  width: px;
+  height: px;
   background-color: #aaaaaa;
-  margin: 4px 0;
+  margin: px 0;
 }
 
 .menu {
@@ -2425,7 +2447,7 @@ div#title-fun{
 }
 
   .ttl__1 p {
-    margin-left: 294px;
+    margin-left: px;
     font-size: 10px;}
 
 header .drawer{
@@ -2453,8 +2475,7 @@ header .drawer{
     margin-right: 80%;
     width: 67px;
     height: 24px;
-    margin-bottom: 75%;
-    margin-top: 40%;
+   
 }
 
 .__contact a {
@@ -2468,15 +2489,15 @@ header .drawer{
 .explain-title>h2{
 
 font-size: 10px;
-margin-left: 275px;
+margin-left: px;
 }
   
 .top-wrapper__all__left__dw__one img {
-  margin-left: 279px;
+  margin-left: px;
 }
 
 .top-wrapper__all__left__dw__two img {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .top-wrapper__all__left__dw{
@@ -2534,7 +2555,7 @@ font-size: 4px;
   max-width: 500px;}
 
 .sol-title {
-    margin-left: 60px;
+    margin-left: 7px;
     margin-right: 60px}
 
 .sol-wrap{
@@ -2577,7 +2598,7 @@ div#title-fun {
 }
 
 .box-wrap{
-  margin-right: 105px;
+  margin-right: px;
   text-align: center;
   
 }
