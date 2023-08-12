@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-
-
-
-
-
 html {
   font-size: 100%;
 }
@@ -455,14 +450,14 @@ margin-top: 30px;
 }
 .ex-leftbox img{
   width: 300px;
-  height: 400px;
+  height: 234px
 
 
 }
 
 .middle-box img{
   width: 300px;
-  height: 400px;
+  height: 234px
 
 }
 
@@ -708,7 +703,7 @@ width: 300px;
 .middle-box{
   text-align: center;
   width: 300px;
-  height: 360px;
+  height: 400px;
 }
 
 .ddle-box h2{
@@ -2362,42 +2357,6 @@ width: 80%;
   border-top: solid 4px #aaaaaa;
   cursor: pointer;
   z-index: 100;
-}
-
-.bar {
-  
-  background-color: #aaaaaa;
-}
-
-.menu {
-  display: none;
-  position: absolute;
-  top: 50px;
-  right: 15px;
-  background-color: white;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 99;
-}
-
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu ul li {
-  padding: 10px;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  color: #333333;
-  font-weight: bold;
-}
-
-
-.drawer.clicked + .menu {
-  display: block;
 }
 
 
