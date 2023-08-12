@@ -81,7 +81,6 @@ li {
   font-weight: bold;
 }
 
-/* メニューを表示するためのスタイル */
 .drawer.clicked + .menu {
   display: block;
 }
@@ -131,13 +130,8 @@ li {
   
 }
 
-.top-wrapper__all__left{
-  
-}
 
-.top-wrapper__all__left__dw__one {
-   
-}
+
 
 .top-wrapper__all__left__dw__one img {
   margin-right: 50px;
@@ -230,7 +224,6 @@ width: 238px;
   font-weight: bold;
 }
 
-/* メニューを表示するためのスタイル */
 .drawer.clicked + .menu {
   display: block;
 }
@@ -342,9 +335,8 @@ margin-top: 30px;
 
 }
 
-.title-voice{
 
-}
+
 
 .sol-title>h1{
   text-align: center;
@@ -357,11 +349,11 @@ margin-top: 30px;
   align-items: center;
   justify-content: center;
   height: 253px;
-    width: 114px /* 適宜要素の高さを設定 */
+    width: 114px 
 }
 
 .box-1 img {
-  margin: 10px; /* 適宜マージンを設定 */
+  margin: 10px;
 }
 
 
@@ -438,7 +430,7 @@ margin-top: 30px;
     align-items: center;
     justify-content: center;
     height: 253px;
-    width: 114px /* 適宜要素の高さを設定 */;
+    width: 114px;
 }
 
 .box-3 {
@@ -447,7 +439,7 @@ margin-top: 30px;
     align-items: center;
     justify-content: center;
     height: 253px;
-    width: 114px /* 適宜要素の高さを設定 */;
+    width: 114px;
 }
 
 
@@ -463,14 +455,14 @@ margin-top: 30px;
 }
 .ex-leftbox img{
   width: 300px;
-  height: 400x;
+  height: 400px;
 
 
 }
 
 .middle-box img{
   width: 300px;
-  height: 400x;
+  height: 400px;
 
 }
 
@@ -532,18 +524,18 @@ font-size: 24px;
 
 .btn-contact {
   display: block;
-  width: 200px; /* ボタンの幅を適宜調整 */
-  height: 40px; /* ボタンの高さを適宜調整 */
+  width: 200px;
+  height: 40px; 
   background-color: #0979b8;
   color: white;
   border: none;
   border-radius: 40px;
   cursor: pointer;
-  font-size: 1em; /* ボタンの文字サイズを適宜調整 */
+  font-size: 1em; 
 }
 
 .btn-contact:hover {
-  background-color: #0979b8; /* マウスオーバー時の背景色を適宜調整 */
+  background-color: #0979b8; 
 }
 
 
@@ -601,7 +593,7 @@ header .drawer {
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+ 
 }
 
 .ttl__1{
@@ -625,9 +617,7 @@ margin-top: 30px;
 
 }
 
-.ttl__1>small{
-      
-}
+
 
 .explain-title>h2{
   font-family: 'Noto Sans JP', sans-serif;
@@ -644,8 +634,7 @@ width: 90%;
 margin: 0 auto;
 }
 
-.example{
-}
+
 
 .sol-wrap{
   margin-top: 30px;
@@ -686,13 +675,13 @@ color: #ffffff;
 .left-box h2 {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #94D9F6; /* ボタンの背景色 */
-  color: #ffffff; /* ボタンの文字色 */
+  background-color: #94D9F6; 
+  color: #ffffff; 
   text-decoration: none;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
   cursor: pointer;
-  transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+  transition: background-color 0.3s ease; 
   margin-bottom: 20px;
 }
 
@@ -732,40 +721,39 @@ width: 300px;
   background-color: #0979b8;
 }
 .left-box h2:hover {
-  background-color: #1e72a6; /* ホバー時の背景色 */
+  background-color: #1e72a6; 
 }
 
 .middle-box h2 {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #94D9F6; /* ボタンの背景色 */
-  color: #ffffff; /* ボタンの文字色 */
+  background-color: #94D9F6;
+  color: #ffffff; 
   text-decoration: none;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
   cursor: pointer;
-  transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+  transition: background-color 0.3s ease; 
 }
 
 .middle-box h2:hover {
-  background-color: #1e72a6; /* ホバー時の背景色 */
+  background-color: #1e72a6; 
 }
 
-/* ボタンスタイル */
 .ddle-box h2 {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #94D9F6; /* ボタンの背景色 */
-  color: #ffffff; /* ボタンの文字色 */
+  background-color: #94D9F6; 
+  color: #ffffff; 
   text-decoration: none;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* ボタンに影を追加 */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
   cursor: pointer;
-  transition: background-color 0.3s ease; /* ホバー時のアニメーション */
+  transition: background-color 0.3s ease; 
 }
 
 .ddle-box h2:hover {
-  background-color: #1e72a6; /* ホバー時の背景色 */
+  background-color: #1e72a6; 
 }
 
 .ex-leftbox>h1 {
@@ -865,7 +853,7 @@ text-align: center;
 
 .ball-title>img{
   width:367px;
-    height: 215px; /* 画像の高さを指定 */
+    height: 215px; 
 
 }
 
@@ -880,8 +868,8 @@ text-align: center;
 
 
 .img-gy img {
-  width: 100px; /* 画像の幅を指定 */
-  height: 200px; /* 画像の高さを指定 */
+  width: 100px; 
+  height: 200px; 
 }
 
 
@@ -1018,9 +1006,9 @@ input{
 
 }
 .contact-wrap__con__form__btn:hover{
-    color: #000; /* 文字色を白にする */
-    background-color: #c9c9c9; /* 背景色をグレー（#c9c9c9）にする */
-    text-decoration: none; /* リンクに出てくる下線を無効にする*/    
+    color: #000; 
+    background-color: #c9c9c9; 
+    text-decoration: none;   
 }
 .service-wrap {
   width: 100%;
@@ -1348,14 +1336,12 @@ dl.p-faq__item.js-accordion {
 .top-wrapper__all__left__dw__two img {
    margin-right: 50px;
     width: 191px;
-    /* height: 18px; */
     height: 59px;
     margin-bottom: 50px;}
 
 .ball-title {
     display: flex;
     line-height: 1.5;
-    /* margin-left: 300px; */
     color: #ffffff;
     font-size: 11px;
     margin-left: 0px;
@@ -1364,7 +1350,6 @@ dl.p-faq__item.js-accordion {
 
 .ball-title img {
     display: table-cell;
-    /* margin-left: 100px; */
     vertical-align: middle;
     margin-bottom: 20px;
 }
@@ -1390,8 +1375,7 @@ dl.p-faq__item.js-accordion {
     display: inline-block;
     margin: 1.5em 0;
     padding: 15px 10px;
-    /* min-width: 120px; */
-    /* max-width: 100%; */
+   
     color: #555;
     font-size: 16px;
     background: #ffffff;
@@ -1414,7 +1398,6 @@ dl.p-faq__item.js-accordion {
 .ball-title {
     display: flex;
     line-height: 1.5;
-    /* margin-left: 300px; */
     color: #ffffff;
     font-size: 11px;
 }
@@ -1473,8 +1456,7 @@ dl.p-faq__item.js-accordion {
     margin-bottom: 20px;
 }
 
-.list-wrap {
-}
+ 
 
 .box-wrap {
     display: flex;
@@ -1531,9 +1513,8 @@ dl.p-faq__item.js-accordion {
     width: 88px;
 }
 
-.left-block{
   
-}
+
 
 .wrap-below {
     display: flex;
@@ -1596,8 +1577,7 @@ dl.p-faq__item.js-accordion {
     margin-bottom: 30px;
 }
 
-.middle-box {
-}
+ 
 
 .middle-box img {
     width: 178px;
@@ -1664,9 +1644,7 @@ dl.p-faq__item.js-accordion {
     margin: 0px;
 }
 
-.title-voice{
-  
-}
+
 
 
 .pay-title {
@@ -1873,7 +1851,7 @@ header .header-wrapper__nav__list__item.__contact {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
+   
 
 }
 
@@ -2071,14 +2049,14 @@ width: 80%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 235px; /* 適宜要素の高さを設定 */
+  height: 235px; 
   font-size: 12px;
   
 
 }
 
 .box-1 img {
-  margin: 10px; /* 適宜マージンを設定 */
+  margin: 10px;
 }
 
 
@@ -2094,11 +2072,11 @@ width: 80%;
   align-items: center;
   justify-content: center;
   height: 253px;
-    /* 適宜要素の高さを設定 */
+    
 }
 
 .box-2 img {
-  margin: 10px; /* 適宜マージンを設定 */
+  margin: 10px;
 }
 
 
@@ -2114,12 +2092,12 @@ width: 80%;
   align-items: center;
   justify-content: center;
  height: 253px;
-     /* 適宜要素の高さを設定 */
+
 
 }
 
 .box-3 img {
-  margin: 10px; /* 適宜マージンを設定 */
+  margin: 10px;
 }
 
 
@@ -2175,7 +2153,7 @@ width: 80%;
 
 
 
-.
+
 
 .title-voice{
    width: 80%;
@@ -2251,17 +2229,13 @@ width: 80%;
   text-align: center;
 }
 
-.faq-wrap__ttl .ttl {
-  ;
-}
+
 
 #faq-2 .faq-wrap__ttl .ttl {
   color: #707070;
 }
 
-.faq-wrap__body__list{
 
-}
 
 .faq-wrap__body {
   display: flex;
@@ -2391,10 +2365,8 @@ width: 80%;
 }
 
 .bar {
-  width: px;
-  height: px;
+  
   background-color: #aaaaaa;
-  margin: px 0;
 }
 
 .menu {
@@ -2423,7 +2395,7 @@ width: 80%;
   font-weight: bold;
 }
 
-/* メニューを表示するためのスタイル */
+
 .drawer.clicked + .menu {
   display: block;
 }
@@ -2441,7 +2413,6 @@ width: 80%;
 }
 
   .ttl__1 p {
-    margin-left: px;
     font-size: 10px;}
 
 header .drawer{
@@ -2460,7 +2431,7 @@ header .drawer{
 
 
 .top-wrapper__all__left__dw__one img {
-    /* margin-right: 50px; */
+    
     width: 67px;
     height: 24px}
 
@@ -2483,12 +2454,9 @@ header .drawer{
 .explain-title>h2{
 
 font-size: 10px;
-margin-left: px;
 }
   
-.top-wrapper__all__left__dw__one img {
-  margin-left: px;
-}
+ 
 
 .top-wrapper__all__left__dw__two img {
   margin-left: 0px;
@@ -2522,7 +2490,6 @@ display: flex;
     margin: initial;
     width: 80%;
     margin: 0 auto;
-    /* max-width: 500px; */
     color: #fff;
     font-size: 10px;
 }
@@ -2552,11 +2519,7 @@ font-size: 4px;
     margin-left: 7px;
     margin-right: 60px}
 
-.sol-wrap{
-  
 
-
-}
 
 div#title-fun {
     text-align: center;
@@ -2565,7 +2528,6 @@ div#title-fun {
     margin-top: 30px;
     color: #fff;
     padding: 0.5em 1em;
-    /* margin-right: 341px; */
 }
 
 #title-fun{
@@ -2592,7 +2554,6 @@ div#title-fun {
 }
 
 .box-wrap{
-  margin-right: px;
   text-align: center;
   
 }
