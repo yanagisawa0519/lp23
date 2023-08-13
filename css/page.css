@@ -99,7 +99,9 @@ header .header-wrapper__nav__list__item.__contact {
   border-radius: 50px;
 }
 
-
+header .drawer  {
+  visibility: hidden;
+}
 
 
 
@@ -2491,8 +2493,8 @@ body.nav-open header .drawer::after {
 }
 
 
-.drawer.clicked + .menu {
-  display: block
+.drawer +.menu {
+  display: block}
 
 
  
