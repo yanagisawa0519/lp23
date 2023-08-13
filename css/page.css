@@ -1668,6 +1668,37 @@ dl.p-faq__item.js-accordion {
 
 }
 
+.menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+/* メニューを表示するためのスタイル */
+.drawer.clicked + .menu {
+  display: block;
+}
+
 body.nav-open header .drawer {
   border-top: 0;
 }
@@ -1967,6 +1998,11 @@ div#title-fun{
     font-size: 12px;
     background: #ffffff;
   }
+
+
+
+
+
 
 
 
@@ -2427,6 +2463,36 @@ body.nav-open header .drawer::after {
   top: 9px;
   transform: rotate(45deg);
 }
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+
+.drawer.clicked + .menu {
+  display: block
 
 
  
