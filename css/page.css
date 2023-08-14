@@ -103,7 +103,7 @@ li {
 
   }
 
-header .drawer .header-wrap__nav__list {
+header .drawer.header-wrapper {
   visibility: hidden;
 }
   
@@ -1293,6 +1293,10 @@ dl.p-faq__item.js-accordion {
   height: 3px;
   background-color: #aaaaaa;
   margin: 4px 0;
+}
+
+header .drawer.header-wrapper {
+  visibility: hidden;
 }
 
 .menu {
