@@ -1211,6 +1211,8 @@ dl.p-faq__item.js-accordion {
   font-size: 11px;
 }
 
+
+
 .drawer {
   visibility: visible;
   width: 24px;
@@ -1220,6 +1222,10 @@ dl.p-faq__item.js-accordion {
   border-top: solid 4px #aaaaaa;
   cursor: pointer;
   z-index: 100;
+}
+
+nav.header-wrapper__nav {
+    width: 70%;
 }
 
 .bar {
@@ -1983,8 +1989,7 @@ div#title-fun{
 
 .wrap-below {
     display: block;
-width: 80%;
-    margin: 0 auto;
+
     justify-content: center;
 }
 
@@ -2005,6 +2010,7 @@ width: 80%;
   justify-content: center;
   height: 235px; /* 適宜要素の高さを設定 */
   font-size: 12px;
+  width: 200px;
   
 
 }
@@ -2026,7 +2032,8 @@ width: 80%;
   align-items: center;
   justify-content: center;
   height: 253px;
-    /* 適宜要素の高さを設定 */
+    width: 200px;
+
 }
 
 .box-2 img {
@@ -2046,7 +2053,7 @@ width: 80%;
   align-items: center;
   justify-content: center;
  height: 253px;
-     /* 適宜要素の高さを設定 */
+  width: 200px;
 
 }
 
@@ -2447,7 +2454,11 @@ body.nav-open header .drawer::after {
     font-size: 10px;}
 
 header .drawer{
-  top: 1px;
+  top: 16px;
+}
+
+.header-wrapper__logo img {
+    width: 20%;
 }
 
 .balloon1:before {
@@ -2529,6 +2540,11 @@ display: flex;
     font-size: 10px;
 }
 
+.wrap-below {
+    width: 80%;
+        margin: 0 auto;}
+
+
 
 .title-fun>h1{
 font-size: 4px;
@@ -2554,12 +2570,13 @@ font-size: 4px;
     margin-left: 7px;
     margin-right: 60px}
 
-.sol-wrap{
-  
-
-
+.pay-box {
+    width: 194px;
+    height: 355px;
+    background-color: white;
+    padding: 23px;
+    margin: 30px;
 }
-
 div#title-fun {
     text-align: center;
     background-color: #0979b8;
@@ -2594,7 +2611,8 @@ div#title-fun {
 }
 
 .box-wrap{
-  margin-right: px;
+  max-width: 304px;
+    
   text-align: center;
   
 }
