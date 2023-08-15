@@ -789,7 +789,7 @@ text-align: center;
   left: 50%;
   margin-left: -153px;
   border: 15px solid transparent;
-  border-top: 15px solid #e0edff;
+  border-top: 15px solid #ffffff;
 }
 
 .balloon1 p {
@@ -1670,6 +1670,16 @@ body.nav-open header .drawer::after {
 
 }
 
+.balloon1:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -118px;
+    border: 15px solid transparent;
+    border-top: 15px solid #ffffff;
+}
+
 .header-wrap{
   margin:2%
 
@@ -1886,24 +1896,28 @@ display: none;
 
 .middle-box {
     text-align: center;
-    width: 271px;
+    width: 295px;
     height: 360px;
     margin-bottom: 30px;
     margin-left: 0px;
 }
 
 .middle-box img {
-    width: 270px;
+    width: 295px;
 }
 
 .ex-leftbox {
     text-align: center;
-    width: 281px;
+    width: 295px;
+    height: 360px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+
     background-color: #0979b8;
 }
 
 .ex-leftbox img {
-    width: 279px;
+    width: 295px;
 }
 
 div#title-fun{
@@ -1999,7 +2013,7 @@ div#title-fun{
     display: block;
     width: 80%;
   margin: 0 auto;
-  max-width: 210px;
+  max-width: 290px;
   font-size: 10px;
 }
 
@@ -2129,7 +2143,7 @@ div#title-fun{
     margin-right: 80px;
     width: 80%;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 278px;
 
 
 }
@@ -2165,6 +2179,11 @@ div#title-fun{
 .paragrah-p {
     padding-top: 70px;
     padding-bottom: 51px;
+}
+
+
+.btn-free{
+  text-align: center;
 }
 
 .p-content__title{
@@ -2468,7 +2487,7 @@ header .drawer{
     left: 50%;
     margin-left: -118px;
     border: 15px solid transparent;
-    border-top: 15px solid #e0edff;
+    border-top: 15px solid #ffffff;
 }
 
 
