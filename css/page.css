@@ -2407,6 +2407,21 @@ body.nav-open header .drawer::after {
 
   }
 
+  .top {
+    background-image: url(../img/25858446_s.jpg)
+  
+  
+  
+  
+  }
+header#header {
+    height: 31vh;
+}
+
+  .top-wrapper__all__left {
+    height: 580px;
+}
+
   .drawer {
   visibility: visible;
   width: 24px;
@@ -2474,6 +2489,10 @@ h2.p-content__title {
     text-align: center;
 }
 
+.explain-title{
+  color: #000;
+}
+
 
  
   .ttl__1 p {
@@ -2531,9 +2550,13 @@ header .drawer{
 }
 
 .explain-title>h2{
-
+color: #000;
 font-size: 10px;
 margin-left: px;
+}
+
+.title-wrap {
+    margin-left: 42px;
 }
   
 .top-wrapper__all__left__dw__one img {
@@ -2556,7 +2579,9 @@ display: flex;
     margin-top: 8%;
 }
 .balloon1 {
-    margin-left: 15%;
+    width: 80%;
+  margin: 0 auto;
+  max-width: 500px
 }
 
 .balloon1 p {
@@ -2604,8 +2629,13 @@ font-size: 4px;
   max-width: 500px;}
 
 .sol-title {
-    margin-left: 7px;
-    margin-right: 60px}
+    margin-left: px;
+    margin-right: 0px}
+
+    .middle-box {
+    margin-top: 0px; 
+    margin-bottom: 30px;
+}
 
 .pay-box {
     width: 194px;
@@ -2695,13 +2725,24 @@ div#title-fun {
 }
 
 .p-content__title {
-    padding: 6px;
+    padding: 0px;
     padding: 5px 0px 12px 0;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+    
+
 }
+
+h2.p-content__title {margin-top: 30px;}
 
 .p-content__title-main {
   font-size: 14px;
   color: #ffffff;
+}
+
+.p-faq__item {
+    padding: 40px 2px 42px 0;
 }
 
 .title-fee {text-align: center;
@@ -2711,7 +2752,9 @@ div#title-fun {
 
 .list-wrap{
   display: block;
-  padding-top: 0px
+  padding-top: 0px;
+  padding-bottom: 4px;
+
 }
 
 .box-fee{
