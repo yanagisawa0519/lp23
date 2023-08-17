@@ -2414,12 +2414,19 @@ body.nav-open header .drawer::after {
   
   
   }
-header#header {
-    height: 31vh;
+
+  .ball-title p {
+    color: white;
+    margin-right: 0px;
 }
 
+  .ball-title p{
+
+    margin-top: 10%;
+  }
+
+
   .top-wrapper__all__left {
-    height: 580px;
 }
 
   .drawer {
@@ -2575,7 +2582,6 @@ display: flex;
 }
 
 .top-wrapper__all__left {
-    margin-right: 0px;
     margin-top: 8%;
 }
 .balloon1 {
@@ -2584,9 +2590,17 @@ display: flex;
   max-width: 500px
 }
 
+.balloon1 {
+    margin-top: 10%;
+}
+
+
+
 .balloon1 p {
     font-size: 4px;
 }
+
+
 
 .title-fun {
     margin-left: 7px;
