@@ -2514,7 +2514,7 @@ h2.p-content__title {
 
   .ttl__1 p {
     margin-left: px;
-    font-size: 10px;}
+    font-size: 15px;}
 
 header .drawer{
   top: 16px;
@@ -2537,14 +2537,14 @@ header .drawer{
 
 .top-wrapper__all__left__dw__one img {
     /* margin-right: 50px; */
-    width: 67px;
-    height: 24px}
+    width: 143px;
+    height: 54px}
 
 
 .top-wrapper__all__left__dw__two img {
     margin-right: 80%;
-    width: 67px;
-    height: 24px;
+    width: 143px;
+    height: 54px;
    
 }
 
@@ -2558,7 +2558,7 @@ header .drawer{
 
 .explain-title>h2{
 color: #ffffff;
-font-size: 10px;
+font-size: 15px;
 }
 
 section#top {
