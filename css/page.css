@@ -2497,7 +2497,7 @@ h2.p-content__title {
 }
 
 .explain-title{
-  color: #000;
+  color: #ffffff;
 }
 
 
@@ -2557,9 +2557,12 @@ header .drawer{
 }
 
 .explain-title>h2{
-color: #000;
+color: #ffffff;
 font-size: 10px;
-margin-left: px;
+}
+
+section#top {
+    height: 58vh;
 }
 
 .title-wrap {
