@@ -1962,7 +1962,6 @@ div#title-fun{
 
 .voice-wrap{
   display: block;
-  width: 80%;
   margin: 0 auto;
 }
 
@@ -2455,6 +2454,9 @@ body.nav-open header .drawer::after {
 
 .sol-title>h1 {
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 257px
 }
 
 .title-voice>h1{
@@ -2490,7 +2492,7 @@ h2.p-content__title {
 
   .ttl__1 p {
     margin-left: px;
-    font-size: 15px;}
+    font-size: 25px;}
 
 header .drawer{
   top: 16px;
@@ -2516,7 +2518,7 @@ header .drawer{
 
 
 .top-wrapper__all__left__dw__one img {
-    width: 100px;
+    width: 123px;
     height: 39px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -2527,7 +2529,7 @@ header .drawer{
 
 .top-wrapper__all__left__dw__two img {
   margin-right: 0px;
-    width: 100px;
+    width: 123px;
     height: 39px;
    margin-bottom: 0px;
     margin-top: 0px;
@@ -2544,7 +2546,7 @@ header .drawer{
 
 .explain-title>h2{
 color: #ffffff;
-font-size: 15px;
+font-size: 25px;
 margin-top: 10%;
     margin-bottom: 0%;
 margin-left: 20%;
@@ -2634,8 +2636,10 @@ font-size: 4px;
 
 .sol-title {
     margin-left: px;
-    margin-right: 0px}
-
+    margin-right: px;
+    width:80%;
+    max-width: px;
+}
     .middle-box {
     margin-top: 0px; 
     margin-bottom: 30px;
@@ -2711,13 +2715,40 @@ div#title-fun {
 }
 
 .voice-wrap{
-  width: 50%;
+  width: 80%;
     margin: 0 auto;
     max-width: 500px;
-    width:251px;
-    margin-right:181px;
     justify-content: space-evenly;
+    width: 238px
 }
+
+.ex-leftbox {
+    text-align: center;
+    width: 240px;
+    height: 360px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    background-color: #0979b8;
+}
+
+.ex-leftbox img {
+    width: 239px;
+}
+
+.middle-box{
+  text-align: center;
+    width: 240px;
+    height: 360px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    background-color: #0979b8;
+}
+
+.middle-box img {
+    width: 239px;
+}
+
+
 
 
 
@@ -2769,6 +2800,17 @@ h2.p-content__title {margin-top: 30px;}
              border: 2px solid #000;
 
     border-color: #000;}
+  
+  .contact-wrap__con__form__item input {
+    width: 110%;
+    height: 1.25rem;
+    background-color: #D9D9D9;
+}
+
+.contact-wrap__con__form__item textarea {
+    width: 110%;
+    height: 17.5rem;
+    background-color: #D9D9D9;
 
 .contact-wrap__con__form__btn {
     width: 50%;
